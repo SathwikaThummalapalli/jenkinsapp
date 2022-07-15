@@ -1,4 +1,5 @@
 ﻿using System;
+using MyMath;
 
 namespace jenkinsapp
 {
@@ -6,7 +7,7 @@ namespace jenkinsapp
     {
         static void Main(string[] args)
         {
-            MyMath m = new MyMath();
+            Class1 m = new Class1();
             Console.WriteLine("Hello World!");
             Console.WriteLine("welcome to jenkins");
             Console.ReadLine();
